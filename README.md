@@ -34,7 +34,7 @@ Upon submission the user is alerted accordingly.
 Quick links to their social sites are included together with a copyright date.
 
 ## Support
-The Portfolio website is compatible with devices of all sizes and all OS's and constitent improvents are being made.
+The Delani Studio website is compatible with devices of all sizes and all OS's and constitent improvents are being made.
 
 # Setup
 Clone this repo https://github.com/MKaringa/delaniStudiios to your desktop and run npm install to install all the dependencies.
