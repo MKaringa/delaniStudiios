@@ -55,10 +55,14 @@
     text-align: center;
     
 }
-.imagewrap{
+.img_wrap img{
+    padding-left: 2%;
+}
+.image_wrap{
     position: relative;
     overflow: hidden;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    
 }
 .image-desc{
     position: absolute;
@@ -88,6 +92,7 @@
     text-align: center;
     color: aliceblue;
     margin-top: 5%;
+    padding: 5%;
 }
 .contacts input{
     background: transparent;
@@ -101,9 +106,12 @@
     background: transparent;
     color: aliceblue;
 }
+.button{
+    size: 20px;
+}
 #message{
     align-self: center;
-    margin-left: 20%;
+    margin-left: 1%;
 }
 .post-message{
     margin-bottom: 20px;
