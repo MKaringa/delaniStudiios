@@ -12,5 +12,9 @@ $(document).ready(function(){
         $("#product").toggle();
     });
 
+    $(".img_wrap").hover(function(){
+        $(this).find("div").toggleClass("img-desc-show")
+    });
+
     
 });
