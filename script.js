@@ -12,10 +12,19 @@ $(document).ready(function(){
         $("#product").toggle();
     });
 
-    $(".img_wrap").hover(function(){
-        $(this).find("div").toggleClass("img-desc-show")
+    $('.img_wrap').hover(function(){
+        $(this).find('.img-desc').toggleClass('img-desc-show')
+
     });
 
+    /*
+    $(".img_wrap").hover(function(){
+        $(this).next().css('visibility', 'visible');
+    }, function(){
+        $(this).next().css('visibility', 'hidden')
+    }
+    */
+    
     $(".form").submit(function(event){
         let name = $('#name').val();
         let email = $('#email').val();
